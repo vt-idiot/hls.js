@@ -10,7 +10,7 @@ jobs:
   cancel:
     runs-on: ubuntu-latest
     steps:
-      - uses: styfle/cancel-workflow-action@3d86a7cc43670094ac248017207be0295edbc31d
+      - uses: styfle/cancel-workflow-action@25b1072e6989f076cfebf162ba7109fcde126aa6
         name: Cancel Previous Workflow Runs
         with:
           workflow_id: ${{ github.event.workflow.id }}
